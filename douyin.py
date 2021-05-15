@@ -19,6 +19,7 @@ class AwemeSDK:
             'uid':uid
         }
 
+
     @register(API.UserLiveInfo)
     def GetUserLiveInfo(self, uid):
         '''
